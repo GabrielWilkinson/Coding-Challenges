@@ -28,6 +28,14 @@ arr.each do |val|
     zero += 1
   end
 end
-p negNumber = neg/n.to_f
-p posNumber = pos/n.to_f
-p zeroNumber = zero/n.to_f
+p negNumberFraction = neg/n.to_f
+p posNumberFraction = pos/n.to_f
+p zeroNumberFraction = zero/n.to_f
+
+# printing fractions to 6 d.p.'s
+
+puts "The fraction of negative numbers is #{sprintf("%.6f",(negNumberFraction))}"
+
+puts "The fraction of positive numbers is #{sprintf("%.6f",(posNumberFraction))}"
+
+puts "The fraction of zero numbers is #{sprintf("%.6f",(zeroNumberFraction))}"
