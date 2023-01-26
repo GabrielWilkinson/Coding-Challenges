@@ -10,22 +10,20 @@ require 'stringio'
 # The function accepts INTEGER_ARRAY a as parameter.
 #
 
-# def lonelyinteger(a)
-#   # Write your code here
+def lonelyinteger(a)
+  # Write your code here
 
 
 
-  p hash = Hash.new
+  hash = Hash.new
   a.each do |num|
-    p test = hash[num]
-    p hash
     if hash[num].nil?
       hash[num] = 1
     else
       hash[num] += 1
     end
   end
-  a.each { |a| puts a if hash[a] == 1}
+  a.each { |a| puts a if hash[a] == 1;}
 end
 
 
