@@ -1,11 +1,11 @@
 // const  q = [2, 5, 1, 3, 4]
-const  q = [2, 1, 5, 3, 4]
+const  q = [2, 1, 5, 3, 4, 9, 10]
 
 function minimumBribes(q) {
   // Write your code here
-//  console.log(q)
-//  q[i] is the original position of the person in final position,
-//  i + 1 is the initial position
+ console.log(q)
+ q[i] is the original position of the person in final position,
+ i + 1 is the initial position
   let positionDiff = 0
   let bribes = 0
   let chaotic = false

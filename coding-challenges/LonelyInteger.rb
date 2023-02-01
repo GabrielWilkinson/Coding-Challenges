@@ -22,6 +22,7 @@ def lonelyinteger(a)
     else
       hash[num] += 1
     end
+    p hash
   end
   a.each { |a| puts a if hash[a] == 1;}
 end
@@ -33,6 +34,6 @@ end
 
 
 n = gets.strip.to_i
-p a = gets.rstrip.split.map(&:to_i)
+a = gets.rstrip.split.map(&:to_i)
 
 lonelyinteger(a)
